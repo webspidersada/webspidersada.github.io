@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+  </head>
+  <script type="text/javascript" src="test.js"></script>
+  <body onload="myFunction()">
+    <header>
+      <div id="center">
+        <a href="./index.html"
+          ><img src="WEB SPIDERS.png" id="center" alt="Our Logo"
+        /></a>
+
+        <nav>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">TEAM MEMBERS</a></li>
+            <li><a href="./hourOfCode.html">HOUR OF CODE</a></li>
+            <li>
+              <a class="active" href="./websiteProject.html">WEBSITE PROJECT</a>
+            </li>
+            <li><a href="./BACKSTAGE.html">BACKSTAGE</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="home">
+        <h1>Contribution Table</h1>
+        <article>
+          <table id="tableOnWebsiteProjectPage">
+            <tr id="tableHead">
+              <td id="member">Member</td>
+              <td id="contribution">Contribution</td>
+              <td id="percentage">Percentage</td>
+            </tr>
+
+            <tr>
+              <td
+                id="member"
+                onclick="window.open('https://www.codecademy.com/profiles/mmammadov','_blank')"
+              >
+                Mammad Mammadov
+              </td>
+              <td id="contribution">
+                Creating the HTML and CSS Structure from Scratch; Designing the
+                Logo; Managing the Project
+              </td>
+              <td id="percentage">28%</td>
+            </tr>
+            <tr>
+              <td
+                id="member"
+                onclick=" window.open('https://www.codecademy.com/profiles/RaulHatamov','_blank')"
+              >
+                Raul Hatamov
+              </td>
+              <td id="contribution">
+                Designing Some Parts of CSS; Using JavaScript; Managing the
+                Project; Alert messages :)
+              </td>
+              <td id="percentage">28%</td>
+            </tr>
+
+            <tr>
+              <td
+                id="member"
+                onclick=" window.open('https://www.codecademy.com/profiles/IbrahimAliyev01','_blank')"
+              >
+                Ibrahim Aliyev
+              </td>
+              <td id="contribution">
+                Writing the Content of the Website; Designing Tables
+              </td>
+              <td id="percentage">26%</td>
+            </tr>
+
+            <tr>
+              <td
+                id="member"
+                onclick=" window.open('https://www.codecademy.com/profiles/DirilishAtilla','_blank')"
+              >
+                Atilla Sharifli
+              </td>
+              <td id="contribution">
+                Helping in Content Writing; Helping with Some Bugs
+              </td>
+              <td id="percentage">18%</td>
+            </tr>
+          </table>
+        </article>
+      </div>
+    </main>
+  </body>
+  <script>
+    document.body.className = "fade";
+  </script>
+
+  <script type="text/javascript" src="index.js"></script>
+  <div class="footer">
+    <p id="footeR">
+      WEB SPIDERS
+      <a href="https://facebook.com" target="_blank"
+        ><img img id="contactLogos" src="fb.png" width="2%"
+      /></a>
+      <a href="https://github.com/webspidersada" target="_blank"
+        ><img id="contactLogos" src="git.png" width="2%"
+      /></a>
+      <input
+        type="text"
+        value="webspidersada@gmail.com"
+        id="myInput"
+        style="display: none"
+      />
+      <img
+        img
+        id="contactLogos"
+        src="gm.png"
+        width="2%"
+        onclick="myFunction1()"
+        style="cursor: pointer"
+      />
+    </p>
+  </div>
+</html>
